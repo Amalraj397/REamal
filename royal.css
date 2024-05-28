@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    text-decoration: none;
+    background: transparent;
+    outline: none;
+    box-sizing: border-box;
+
+}
+/*
+ol, ul{
+    /* list-style: none; */
+
+/* a{
+    color:rgb(0, 162, 255);
+} */
+ /* img.logoR{
+    height: 200px; 
+    width: 200px;
+    padding-right: 50px;
+    display: inline-block  */
+ 
+/*  
+.wrapper{
+    width: 90px;
+    /* margin: 0 auto; 
+}*/
+
+header{
+    background-color: #0a0a0a;
+    border: px solid black;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+/* header .wrapper h1{} */
+ 
+header .wrapper h1 img{
+    width: 300px;
+    padding-right: 100px;
+    margin-left: 20px;
+}
+
+header .wrapper ul{
+    /* list-style: none; */
+    padding-right: 420px;
+    display: inline-flex;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif
+    /* justify-content: end; */
+    
+}
+
+header .wrapper ul li{
+    margin-right: 32px;
+    position: relative;
+}
+
+header .wrapper ul li a{
+
+        color: #ffffff;
+        font-size: 15px;
+        font: weight 25px;
+        justify-content: space-between; 
+        width: auto;
+        
+        /* text-decoration: none;
+        list-style-type: none;*/
+        
+} 
+header .wrapper ul li a:hover{
+    color: rgb(201, 14, 14);
+}
+
+.drown_menu1{
+    display: none;
+    position: absolute;
+    min-width: 5px;
+    /* display: block; */
+}
+
+ /* .drown_menu1{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #0a0a0a;
+} */
+ 
+/* .wrapper ul :hover .drown_menu1{
+    display: block;
+    position: absolute;
+    /* margin-top: 15px; * comment
+    margin-left: 15px; 
+    cursor: pointer;
+    left: 0;
+    top: 100%;
+    background-color: #0a0a0a;
+}   */
+
+.wrapper ul :hover .drown_menu1 {
+    display: block;
+    position: absolute;
+    /* margin-top: 15px; */
+    margin-left: 15px; 
+    cursor: pointer;
+    left: 0;
+    top: 100%;
+    background-color: #0a0a0a;
+}  
+.drown_menu1 ul{
+    /* display: block; */
+    margin: 10px;
+}
+
+.drown_menu1 ul li{
+    width: 150px;
+    padding: 5px;
+}
+
+header .wrapper ul li{
+    display :flex;
+} 
+
+.wrapper ul li  :hover{
+    display: block;
+    /* background-color: aqua; */
+
+ }
+
+/* ........................... */
+
+ header .wrapper  a img{
+    width: 40px;
+    height: 20px;
+    margin-right:35px;
+    object-fit: coverS;
+    padding-left: 10px;
+    
+}
+#div1 img{
+   width: 100%;
+   height: 100%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    /* margin-right: 0; */
+}
+
+.search form{
+    display: flex;
+    margin: 0;
+}
+.search input{
+     padding: 7px;
+     border: 1px solid #ffffff;
+     background-color: antiquewhite;
+     outline: none;
+     border-radius: 5px;
+     margin-right: 10px;
+     font-size: 16px;
+     margin-left: -300px;
+}
+
+.search input :hover{
+    border: 2px solid  #efecde;
+}
+
+
+.search button{
+    padding: 7px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #6d6464;
+}
+
+.search button:hover{
+     background-color: #abaaaa;
+}
+.search-container {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search-container button {
+    background-color: #ede1e1;
+    color: rgb(190, 47, 47);
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 5px;
+  }
+section .imgRE{
+    width: 100%;
+   height: 100%;
+}
+
+#ns_ma{
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 44%;
+ }
+h2{
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-left: 44%; */
+}
+.navigtion_dv{
+    /* width: 80%;  */
+    /* margin: 0 auto; */
+    padding: 20px; 
+    margin-top: -15px;
+    /* box-sizing: border-box;  */
+}
+    header .Motors ul {
+        /* padding-left: 10PX; */
+        margin-left: -30px;
+        position: relative;
+        display: inline flex;
+        list-style-type: none;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 
+                            'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+                             'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        
+    }
+    
+    header .Motors ul li a{
+        
+            display: flex;
+            margin-left: 30px;
+            color: #ffffff;
+            padding-top: 10px;
+            font-size: 16px;
+            font: weight 30px;
+            justify-content: space-between;
+            
+    } 
+    header .Motors ul li a:hover{
+        color: rgb(201, 14, 14);
+    }
+    .Motors{
+         padding: 20px; 
+         margin-top: -15px;
+         background-color: #100e0e;
+    }
+
+    .image-container {
+        display: flex; /* Enables flexbox layout */
+        justify-content: space-between; /* Distributes space between images */
+        align-items: center; /* Aligns items vertically in the center */
+        flex-wrap: nowrap; /* Prevents wrapping of the images */
+        gap: 0px; /* Adds space between the images */
+        padding: 0px; /* Adds padding around the container */
+    }
+    
+    /* Style for the images */
+    .image-container img {
+        max-width: 100%; /* Ensures images do not exceed their container's width */
+        height: 200px; /* Maintains the aspect ratio of the images */
+        flex: 1; /* Ensures all images are of equal width */
+    }
+    header .Motorslast ul {
+        /* padding-left: 10PX; */
+        margin-left: -30px;
+        position: relative;
+        display: inline flex;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 
+                            'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+                             'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        
+    }
+   /* Style for the div inside the nav */
+header nav .Motorslast {
+    width: 100%; /* Sets the width to 100% of its parent */
+    height: 100px;
+    /* max-width: 1200px; Sets a maximum width for the div */
+    margin: 0 auto; /*Centers the div within its parent*/
+    padding: 70px 190px; /* Optional: Adds padding inside the div */
+    background-color: #1a1919; /* Optional: Adds a background color */
+    box-sizing: border-box; /*Ensures padding is included in the width */
+}
+
+/* Container holding the navigation links */
+header nav .Motorslast ul {
+    list-style: none; /* Removes default list styling */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Aligns list items horizontally */
+    justify-content: space-between; /* Space out list items evenly */
+    align-items: center; /* Vertically center the items */
+}
+
+/* Styling for the links */
+header nav .Motorslast ul li a {
+   
+    text-decoration: none; /* Removes underline from links */
+    color: #7f7b7b; /* Sets the text color of the links */
+    padding: 10px 15px; /* Adds padding around the links */  
+    margin-top: 15px;
+}
+header nav .Motorslast ul li a:hover{
+    color: rgb(201, 14, 14);
+}
+
+
+/* ----------------------------------------- */
+/* Styling for the footer container */
+.footer-container {
+    display: flex; /* Enables flexbox layout */
+    flex-wrap: wrap; /* Allows wrapping if there's not enough space */
+    justify-content: space-between; /* Distributes space evenly between columns */
+    padding: 20px;
+    background-color: #f1f1f1; /* Background color for the footer */
+    
+}
+
+/* Styling for each footer column */
+.footer-column {
+    flex: 1; /* Makes each column take equal space */
+    min-width: 100px; /* Minimum width for each column */
+    margin: 10px; /* Optional: spacing between columns */
+}
+
+/* Styling for the h2 elements inside the footer columns */
+.footer-column h3 {
+    font-size: 12px; 
+    margin-bottom: 15px; 
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 
+                           'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+                            'Open Sans', 'Helvetica Neue', sans-serif;
+}
+   
+
+/* Styling for the ul elements inside the footer columns */
+.footer-column ul {
+    list-style: none; /* Removes default list styling */
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for the li and a elements inside the ul */
+.footer-column ul li {
+    font-size: 15px;
+    /* font-weight:bolder */
+    margin-bottom: 8px; /* Spacing between list items */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 
+                            'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+                             'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-column ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: #000000; /* Text color for links */
+    /* transition: color 0.3s; Smooth color transition on hover */
+}
+
+.footer-column ul li a:hover {
+    color: rgb(201, 14, 14);
+}
+
+
+
+/****************************************************/
+
+/* Styling for the footer container */
+.footer-container {
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-between; /* Distributes space between left and right sections */
+    padding: 20px;
+    background-color: #f1f1f1; /* Background color for the footer */
+    border-top: 1px solid #989090;  /*Top border*/
+     /* border-bottom: 1px solid #969696;Bottom border */
+    font-size: 13px;
+}
+
+/* Styling for the left section of the footer */
+.footer-left {
+    display: flex; /* Enables flexbox layout for the left section */
+    align-items: center; /* Vertically centers the content */
+}
+
+/* Styling for the ul inside the left section */
+.footer-left ul {
+    display: flex; /* Makes the list items align horizontally */
+    list-style: none; /* Removes default list styling */
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for the li inside the ul */
+.footer-left li {
+    margin-right: 15px; /* Adds space between the links */
+}
+
+/* Styling for the a tags inside the li */
+.footer-right li a {
+    text-decoration: none; /* Removes underline from links */
+    color: #000000;  /*Text color for links*/
+    transition: color 0.1s;
+}
+
+.footer-right li a:hover {
+    color: rgb(201, 14, 14); /* Color on hover */
+}
+
+/* Styling for the right section of the footer (optional) */
+.footer-right{
+    flex: 1; /* Allows the right section to take up remaining space */
+    display: flex; /* Enables flexbox layout */
+    justify-content: flex-end;  /*Aligns content to the right*/
+    list-style-type: none;
+}
+
+.button_explore{
+    position: absolute;
+    top: 78%;
+    left: 47%;
+    /* transform: translate(-50%, -50%); */
+    padding: 11px 16px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.arrow_icon{
+    color: #000;
+    padding-left: 8px;
+  }
+
